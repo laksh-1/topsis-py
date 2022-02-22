@@ -1,10 +1,10 @@
 # Topsis_Laksh
 
-Foobar is a Python library for dealing with word pluralization.
+Topsis_Laksh is a library for calculating topsis score and ranking them according to the score.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install this package.
 
 ```bash
 pip install Topsis-Laksh-101916002
