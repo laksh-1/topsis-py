@@ -55,12 +55,13 @@ def main():
 
 
 def topsis(df_copy, df, cols, weights, imp):
-
+    i = 0
     # normalizing the array
     for column in df_copy:
         if column != 'Fund Name':
             df_copy[column] = df_copy[column] / \
-                math.sqrt(df_copy[column].pow(2).sum())
+                math.sqrt(df_copy[column].pow(2).sum())*weights[i]
+            i = i+1
 
     # calculating V1 and V2 according to impacts
     V1 = (df_copy.max())[1:]
