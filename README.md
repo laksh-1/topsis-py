@@ -10,10 +10,17 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install this pa
 pip install Topsis-Laksh-101916002
 ```
 
+## Code Snippet
+
+```python
+from topsis import main
+main()
+```
+
 ## Usage in terminal
 
 ```python
-topsis data.csv "1,1,1,1,1" "+,+,-,+,+" result.csv
+python <filename.py> <data.csv> '1,1,1,1,1' '+,+,-,+,+' <result.csv>
 ```
 
 
