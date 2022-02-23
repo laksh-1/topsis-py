@@ -25,7 +25,7 @@ python <filename.py> <data.csv> '1,1,1,1,1' '+,+,-,+,+' <result.csv>
 
 
 ## Input file (data.csv)
-###In this script, the first column should be named 'Fund Name' for the script to work correctly
+*In this script, the first column should be named 'Fund Name' for the script to work correctly
 
 |Fund Name|      P1     |      P2       |  P3  |      P4  |
 |  -----  | ----------- | ------------- | ---- | -------- |
